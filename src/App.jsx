@@ -25,7 +25,9 @@ function App() {
                 {/*Button two*/}
                 {/*<button type="button" onClick={()=>setLight(!light)}>{light === true ? "Turn off" : "Turn on"}</button>*/}
 
-                {/*Button three*/}
+                {/*Button three
+                   Import button
+                */}
                 <ToggleButton object={setLight} state={light} />
 
             </section>
