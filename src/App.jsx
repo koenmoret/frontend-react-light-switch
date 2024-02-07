@@ -17,11 +17,17 @@ function App() {
             <section>
                 <div className="dot"></div>
 
+                {/*Button one
+                   Uncommon the above function to work
+                */}
                 {/*<button type="button" onClick={toggleLight}>Turn on/off</button>*/}
 
-                <button type="button" onClick={()=>setLight(!light)}>{light === true ? "Turn off" : "Turn on"}</button>
+                {/*Button two*/}
+                {/*<button type="button" onClick={()=>setLight(!light)}>{light === true ? "Turn off" : "Turn on"}</button>*/}
 
+                {/*Button three*/}
                 <ToggleButton object={setLight} state={light} />
+
             </section>
         </main>
     );
